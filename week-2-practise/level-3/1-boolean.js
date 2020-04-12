@@ -3,7 +3,9 @@
 // What was wrong with the original code?
 // Leave comments above your changes to explain
 
-var isHappy = "false";
+
+//the sentence was wrong because a boolean should not have quotes
+var isHappy = false;
 
 if (isHappy == true) {
   console.log("I am happy");

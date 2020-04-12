@@ -6,7 +6,9 @@
 // - return a new array with the replacement value inserted
 
 function replace(arr, valueToReplace, newValue) {
-  return; // complete this statement
+  var newArr = Array.from(arr);
+  newArr.splice(arr.indexOf(valueToReplace),1,newValue);
+  return newArr; // complete this statement
 }
 
 /* 

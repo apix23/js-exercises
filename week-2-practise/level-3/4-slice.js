@@ -3,9 +3,10 @@
 // - NOT change the original array
 // - return a new array with the replacement value inserted
 // - insert the replacement value at the provided index
-
 function replace(arr, index, value) {
-  return; // complete this statement
+  var newArr = Array.from(arr);
+  newArr[index] = value;
+  return newArr; // complete this statement
 }
 
 /* 
